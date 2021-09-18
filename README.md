@@ -21,7 +21,7 @@ WHERE fromLanguage = fromLanguage
 AND toLanguage = toLanguage
 AND textContent = textContent;
 END
-
+---------------------------------------------------------------------------
 CREATE DEFINER=`root`@`localhost` PROCEDURE `addTranslatedResponse`(
 IN fromLanguage int,
  IN toLanguage varchar(20),
